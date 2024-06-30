@@ -62,5 +62,10 @@ def plot_decision_boundary(w, b, X, y):
         # Plot z = 0
         plt.contour(u,v,z, levels = [0.5], colors="g")
 
-        
+
+
+def find_plot_variable():
+    #write a value of function
+    return True
+
         
